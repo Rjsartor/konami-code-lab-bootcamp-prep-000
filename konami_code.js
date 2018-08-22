@@ -15,16 +15,13 @@ var index = 0
 
 function init() {
   // your code here
-   var body = document.body;
-  body.addEventListener('keydown', function(e){
-    var key = parseInt(e.detail || e.which);
-     // check if key is equal to current value of index in code array
-    // then loop through the array if conditions match
-     if (key === code[index]) {
-      // if yes, increment index by 1
+   var index =0
+  document.body.addEventListener('keydown', function(e){
+    
+     if (e.key === code[index]) {
       index++;
        // if still in the loop, check if index is equal to code array length
-      if (index === code.length - 1) {
+      if (e.index === code.length) {
         // reset the index counter
         index = 0;
         // if yes, you passed, congrats!
