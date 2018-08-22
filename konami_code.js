@@ -14,7 +14,7 @@ const codes = [
 
 function init() {
   let index = 0;
-  const input = document.querySelector('input')
+  // const input = document.querySelector('input')
   document.body.addEventListener('keydown', function(e) {
     const key = e.key
     if (key === codes[index]) {
