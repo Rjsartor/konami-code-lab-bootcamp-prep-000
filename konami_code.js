@@ -11,8 +11,6 @@ const codes = [
   65
 ];
 
-var index = 0
-
 function init() {
   var index = 0
   // your code here
