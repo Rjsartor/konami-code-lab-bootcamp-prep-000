@@ -7,8 +7,8 @@ const codes = [
   39,
   37,
   39,
-  "b",
-  "a"
+  66,
+  65
 ];
 
 var index = 0
