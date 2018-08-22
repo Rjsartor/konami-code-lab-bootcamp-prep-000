@@ -12,6 +12,7 @@ const codes = [
 ];
 
 var index = 0
+var keys = []
 
 function init() {
   // your code here
