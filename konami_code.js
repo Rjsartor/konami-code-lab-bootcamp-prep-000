@@ -23,7 +23,7 @@ function init() {
             keys.shift();
           }
       if ( keys.toString() === code.toString() ) {
-            $('#monster-container').slideDown('slow');
+            alert("Hurray!");
           }
   })
 }
