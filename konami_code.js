@@ -17,5 +17,6 @@ function init() {
   // your code here
    var body = document.body;
    body.keydown(function(keyEvent) {
+      keys.push(keyEvent.keyCode);
   })
 }
