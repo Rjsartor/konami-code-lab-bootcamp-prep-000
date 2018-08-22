@@ -15,6 +15,7 @@ var index = 0
 
 function init() {
   // your code here
+  $(document).keydown(function(keyEvent) {
   function onKeyDownHandler(e) {
   const key = e.key;
     if (key === alphabet[index]) {
@@ -28,6 +29,6 @@ function init() {
     }
   }  
 }
-
+}
 init()
 
