@@ -22,5 +22,8 @@ function init() {
       if ( keys.length > codes.length ) {
             keys.shift();
           }
+      if ( keys.toString() == code.toString() ) {
+            $('#monster-container').slideDown('slow');
+          }
   })
 }
