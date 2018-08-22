@@ -16,16 +16,5 @@ var keys = []
 
 function init() {
   // your code here
-   var body = document.body;
-   body.keydown(function(keyEvent) {
-      keys.push(keyEvent.keyCode);
-      if ( keys.length > codes.length ) {
-            keys.shift();
-          }
-      if ( keys.toString() === code.toString() ) {
-            alert("Hurray!");
-          }
-  })
-}
-
+   
 init()
