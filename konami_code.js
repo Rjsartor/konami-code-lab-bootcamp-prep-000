@@ -16,5 +16,5 @@ var index = 0
 function init() {
   // your code here
    var body = document.body;
-   body.keydown(function(keyEvent) {
+   body.keydown(function(keyEvent)) {
 }
